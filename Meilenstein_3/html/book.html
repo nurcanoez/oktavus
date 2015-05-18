@@ -1,0 +1,33 @@
+
+<html>
+<head lang="de">
+    <meta charset="UTF-8">
+    <title>Meine Bücher</title>
+
+    <link rel="stylesheet" type="text/css" href="../../Meilenstein_2/css/main.css"/>
+<link rel="stylesheet" type="text/css" href="../../Meilenstein_2/css/home.css"/>
+<link rel="stylesheet" type="text/css" href="../css/book.css"/>
+<script type="text/javascript" src="../js/books.js"></script>
+<script type="text/javascript" src="../json/horror.json"></script>
+<script type="text/javascript" src="../json/roman.json"></script>
+    </head>
+
+    <body onload="init()">
+    <div>
+ <div class="headline">
+     Meine Bücher
+ </div>
+    <div class="box">
+        <span id="horrorButton" class="buttons" onclick="LoadTable(this,horrorData.horror)"> Horror</span>
+        <span id="romanButton" class="buttons" onclick="LoadTable(this,romanData.roman)">Roman</span>
+    </div>
+        </div>
+    <div class="insertPlace">
+        <table id="insert">
+
+        </table>
+    </div>
+    </body>
+</html>
+
+
