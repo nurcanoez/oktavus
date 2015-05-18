@@ -1,0 +1,88 @@
+html {
+    background-color: RGB(153,217,234) ;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.headline{
+    font-size: 22px;
+    margin: 30px;
+    left:355px;
+    position: relative;
+    color:rgb(63,72,204);
+}
+
+.secondColumn {
+    position: absolute;
+    left:200px;
+    width:160px;
+}
+
+.firstColumn {
+    font-size: 16px;
+    width: 250px;
+    position: absolute;
+    left: 200px;
+    border-left: 2px solid red;
+    margin: 1em;
+    top:125px;
+    color:rgb(63,72,204);
+
+}
+.checkboxleft{
+    font-size:14px;
+    position: absolute;
+    top:250px;
+    left: 200px;
+    width: 80px;
+    color: black;
+    font-weight: normal;
+}
+
+.checkboxright{
+    font-size: 14px;
+    position: absolute;
+    top: 250px;
+    left: 380px;
+    width: 80px;
+    color: black;
+    font-weight: normal;
+}
+.thirdColumn {
+    font-size: 16px;
+    position:absolute;
+    width: 250px;
+    left: 780px;
+    top:125px;
+    margin: 1em;
+    font-weight:normal ;
+    color:rgb(63,72,204);
+}
+
+.fourthColumn{
+    position:absolute;
+    width: 160px;
+    left:150px;
+}
+
+.lastline{
+    position: relative;
+    width: 250px;
+    text-align: center;
+    top: 380px;
+    right: 50%;
+    left: 50%;
+    border: 2px solid rgb(63,72,204);
+    background-color: rgb(0,162,232);
+    color: rgb(63,72,204);
+    font-weight: bold;
+}
+
+.redLine{
+    width: 2px;
+    left: 415px;
+    top: 125px;
+    background-color: red;
+    position: absolute;
+    height: 320px;
+}
